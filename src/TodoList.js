@@ -54,7 +54,7 @@ export default function TodoList() {
 
     return (
         <div className="container my-5">
-            <div className="mx-auto rounded border p-4" style={{width: "600px", backgroundColor: "#454545"}}>
+            <div className="mx-auto rounded border border-dark p-4" style={{width: "700px", backgroundColor: "#454545"}}>
                 <h2 className="text-white text-center mb-5">Minhas Tarefas</h2>
                 <form className="d-flex mb-4" onSubmit={handleSubmit}>
                     <input 
